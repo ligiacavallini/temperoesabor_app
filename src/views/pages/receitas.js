@@ -8,9 +8,8 @@ import Content from '../../layouts/content';
 // Utilities.
 import utils from '../../utils';
 
-
 // Define class.
-class AboutPage extends React.Component {
+class RecipesList extends React.Component {
   constructor(props) {
     super(props);
 
@@ -20,15 +19,14 @@ class AboutPage extends React.Component {
 
   // Render method.
   render() {
-    let text = 'About me text';
     return (
       <Main>
         <h1>About Us </h1>
-        <p>{text}</p>
+        <p>teste</p>
       </Main>
     );
   }
 }
 
 // Export.
-export default AboutPage;
+export default RecipesList;
